@@ -61,6 +61,8 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.11f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ExamplePanelLogic.cs" />
+    <Compile Include="Assets\Scripts\ShowCanvasOnLook.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoPlayerRenderTexture.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\Rotator.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRKnob.cs" />
@@ -72,9 +74,12 @@
     <Compile Include="Assets\VRTemplateAssets\Scripts\HandSubsystemManager.cs" />
     <Compile Include="Assets\IGB388 Demo Scene\Asset Store Assets\QuickOutline\Scripts\Outline.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\DestroyObject.cs" />
+    <Compile Include="Assets\Scripts\VRInputExample.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
+    <Compile Include="Assets\Scripts\OutlineOnHover.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\Callout.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
+    <Compile Include="Assets\Scripts\Pot.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
   </ItemGroup>

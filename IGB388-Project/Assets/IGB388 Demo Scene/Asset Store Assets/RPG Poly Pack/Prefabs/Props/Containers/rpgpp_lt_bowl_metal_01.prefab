@@ -14,6 +14,9 @@ GameObject:
   - component: {fileID: 1391494956556685909}
   - component: {fileID: 2123618841410868887}
   - component: {fileID: 6274957990425549830}
+  - component: {fileID: 8138053719148274479}
+  - component: {fileID: 1512292966887216623}
+  - component: {fileID: 1527620853459162762}
   m_Layer: 0
   m_Name: rpgpp_lt_bowl_metal_01
   m_TagString: Untagged
@@ -272,6 +275,56 @@ MonoBehaviour:
   m_LimitAngularVelocity: 0
   m_MaxLinearVelocityDelta: 10
   m_MaxAngularVelocityDelta: 20
+--- !u!114 &8138053719148274479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075210506956534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 767ac671ab63ecf4d8c6c1660f3b4691, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OutlineOnHover
+--- !u!114 &1512292966887216623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075210506956534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccdfac2a10f568e468823d652081363e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Pot
+  grabbable: {fileID: 0}
+  rigid: {fileID: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  forceToBreak: 1
+  potSmashEffect: {fileID: 3014959229450926018, guid: eef110f8c9c33704c9e6a239222766f0, type: 3}
+--- !u!65 &1527620853459162762
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075210506956534}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.8703934, y: 0.67471886, z: 0.8663232}
+  m_Center: {x: 0.0006444007, y: 0.3373596, z: 0.0000023543835}
 --- !u!1 &1626338077313756726
 GameObject:
   m_ObjectHideFlags: 0
